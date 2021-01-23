@@ -17,6 +17,7 @@ public class Atm {
 
     public void withdrawBalance(double moneyBYN) {
         card.withdrawBalance(moneyBYN);
+        System.out.println("money withdraw");
     }
 
     public String info() {

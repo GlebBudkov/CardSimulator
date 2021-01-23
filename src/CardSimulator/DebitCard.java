@@ -20,6 +20,7 @@ public class DebitCard extends Card{
             BigDecimal moneyBD = new BigDecimal(moneyBYN);
             BigDecimal differenceBD = balanceBD.subtract(moneyBD);
             balance = differenceBD.doubleValue();
+            System.out.println("Balance withdraw");
         }
     }
 }
